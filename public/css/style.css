@@ -1,0 +1,44 @@
+.todolist{
+    width: 50%;
+    background-color: white;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 4%;
+}
+.input .list{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background: rgb(45, 77, 99);
+}
+.btn{
+    width: 65px;
+    height: 38px;
+}
+.action-btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.event-name-col{
+    width: 58.33%;
+}
+.action-col{
+    width:7%;
+}
+.event-name{
+    width: 30%;
+}
+.event-text{
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+@media(max-width:500px){
+    .event-name-col{
+        width: 30%;
+    }
+    .todolist{
+        width: 90%;
+    }
+}

@@ -1,0 +1,38 @@
+.calendar {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .weekdays {
+    display: flex;
+    justify-content: space-between;
+  }
+  .weekday {
+    width: 14.2%;
+  }
+  .days {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .day {
+    width: 14.2%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .today {
+    background-color: #ee9a4b !important;
+    border-radius: 50%;
+  }
+  .isactive {
+    background-color: #3ec91b;
+    border-radius: 50%;
+  }
